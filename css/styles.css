@@ -1,0 +1,170 @@
+html,body{
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1,h2,h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #444444;
+}
+/* Headings */
+.big-heading{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* container */
+.container-fluid {
+  padding: 6% 12%;
+}
+/* Section */
+.colored-section{
+  background-color: #1D2D50;
+  color: #fff;
+}
+.white-section{
+  background-color: #FFFFFF;
+}
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-band {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 3rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+/* Download buttons */
+.button {
+  margin: 8% 5%;
+}
+/* Title */
+#title {
+  text-align: left;
+}
+
+/* Title image */
+.title-image {
+  width: 150%;
+  transform: rotate(12deg);
+  position: relative;
+  top: 25%;
+  right: 15%;
+}
+
+/* Features */
+#features {
+  padding: 12% 12% 10%;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.icon {
+  color: #256D85;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #1D2D50;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #256D85;
+  padding-top:80px;
+}
+
+.testimonial-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 2;
+}
+
+.steam {
+  border-radius: 100%;
+  width: 10%;
+  margin: 3rem;
+}
+
+/* press */
+#press {
+  background-color: #256D85;
+  padding:5% 15% 3% ;
+}
+
+.press-image {
+  width: 20%;
+  margin-left: 2rem;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-card{
+  padding: 3% 4%;
+}
+.prcie-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer.container-fluid{
+  padding:2% 15%;
+}
+.social-icon {
+  padding: 15px 10px;
+}
+@media(max-width:1028px){
+  .title-image{
+    width: 110%;
+    transform: rotate(0deg);
+    position: static;
+  }
+  .big-heading,.section-heading{
+    font-size: 2rem;
+  }
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+  #pricing {
+    padding: 80px;
+  }
+}
